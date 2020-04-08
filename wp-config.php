@@ -25,13 +25,13 @@ define('WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', '');
+define('DB_NAME', 'magic');
 
 /** MySQL database username */
-define('DB_USER', '');
+define('DB_USER', 'magic');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '87fdhK238NBfdpQbb!ljkb*b9');
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');
@@ -96,4 +96,4 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
-define('WP_TEMP_DIR', ABSPATH . '../tmp/');
+define('WP_TEMP_DIR', ABSPATH . '../../tmp/');

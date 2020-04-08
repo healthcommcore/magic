@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/magic_avada_child"]
+	path = wp-content/themes/magic_avada_child
+	url = https://github.com/healthcommcore/magic_avada_child.git
